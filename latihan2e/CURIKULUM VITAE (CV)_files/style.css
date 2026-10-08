@@ -1,0 +1,215 @@
+body {
+	   background-color: lightcoral;
+
+	   font-family: Aria;
+
+	   color: #000000;
+
+	   margin: 30px outo;
+
+	   padding: 30px;
+}
+
+.container {
+	          width: 90%;
+
+	          margin: 20px outo;
+
+	          padding: 30px;
+
+	          background-color: floralwhite;
+}
+
+h1 {
+	color: saddlebrown;
+
+	margin-top: 30px;
+
+	margin-bottom: 15px;
+
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+
+	color :red;
+
+	margin-top: 2px;
+
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 16 px;
+
+	line-height: 1.7;
+	
+	text-align: justify;
+}
+
+.Identitas {
+	width: 100%;
+}
+
+.kolom-foto {
+	width: 142px;
+	vertical-align: top;
+
+
+	padding-right: 30px;
+}
+
+.kolom-identitas {
+	vertical-align: top;
+}
+
+.Foto-profil {
+	width: 142px;
+	
+	border: 3px solid #00509e;
+
+	padding: 5px;
+}
+
+.data-identitas td {
+	padding: 8 px 12px;
+
+	border: 3px solid black;
+
+	background-color: white;
+
+	color: block;
+
+}
+
+Ul,
+ol  {
+	line-height: 1.8;
+}
+
+.matakuliah {
+	width: 100%;
+
+	border-collapse: collapse;
+	
+	margin-top: 15px;
+	
+	margin-bottom: 20px;
+
+	font-family: arial, sans-serif;
+}
+
+.matakuliah th {
+	background-color: #1e8a49;
+
+	color: white ;
+
+	padding: 12px 10px;
+
+
+	text-align: left;
+
+	border: 1px solid black;
+
+}
+
+.matakuliah td {
+	padding: 10px;
+
+	border: 3px solid black;
+
+}
+
+a {
+	color: #0066cc;
+
+	text-decoration: none;
+}
+
+a:hover {
+	color: cadetblue;
+
+	text-decoration: underline;
+}
+
+form {
+	background-color: #f1f5f9;
+	
+	padding: 20px;
+
+	margin-top: 20px;
+
+	border: 1px solid #cccccc;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+
+label {
+	display: block;
+
+	font-weight: bold;
+
+	margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+
+	padding: 10px;
+
+	border: 1 px solid #cccccc;
+
+	box-sizing: border-box;
+}
+
+textarea {
+	resize: vertical;
+}
+
+
+button {
+	background-color: #800020;
+	color: block;
+	padding: 10px 20px;
+	border: none;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+button {
+	background-color: #00509e;
+}
+
+
+.footer {
+	text-align: center;
+	color: #666666;
+	margin-top: 30px;
+}
+
+
+.grid-informasi {
+	display: flex;
+	grid-template: repeat(3, 1fr);
+	gap: 20px;
+	margin-top:  5px;
+	margin-bottom: 20px;
+}
+
+.card {
+	width: 220px;
+	height: outo;
+	height: 180px;
+	background-color: cadetblue;
+	padding: 20px;
+	border: 5px solid #dddddd;
+
+
+}
+
